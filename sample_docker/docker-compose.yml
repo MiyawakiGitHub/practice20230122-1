@@ -2,7 +2,7 @@ version: '3.6'
 services:
   mysql:
     container_name: mysql
-    build: ../docker/mysql
+    build: ../sample_docker/mysql
     environment:
       MYSQL_DATABASE: mysqldb
       MYSQL_USER: user
